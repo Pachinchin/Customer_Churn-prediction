@@ -1,2 +1,26 @@
 # Customer_Churn-prediction
-## Data Dictionary  There are multiple variables in the dataset which can be cleanly divided in 3 categories:  ### Demographic information about customers  &lt;b>customer_id&lt;/b> - Customer id  &lt;b>vintage&lt;/b> - Vintage of the customer with the bank in number of days  &lt;b>age&lt;/b> - Age of customer  &lt;b>gender&lt;/b> - Gender of customer  &lt;b>dependents&lt;/b> - Number of dependents  &lt;b>occupation&lt;/b> - Occupation of the customer   &lt;b>city&lt;/b> - City of customer (anonymised)   ### Customer Bank Relationship   &lt;b>customer_nw_category&lt;/b> - Net worth of customer (3:Low 2:Medium 1:High)  &lt;b>branch_code&lt;/b> - Branch Code for customer account  &lt;b>days_since_last_transaction&lt;/b> - No of Days Since Last Credit in Last 1 year   ### Transactional Information  &lt;b>current_balance&lt;/b> - Balance as of today  &lt;b>previous_month_end_balance&lt;/b> - End of Month Balance of previous month   &lt;b>average_monthly_balance_prevQ&lt;/b> - Average monthly balances (AMB) in Previous Quarter  &lt;b>average_monthly_balance_prevQ2&lt;/b> - Average monthly balances (AMB) in previous to previous quarter  &lt;b>current_month_credit&lt;/b> - Total Credit Amount current month  &lt;b>previous_month_credit&lt;/b> - Total Credit Amount previous month  &lt;b>current_month_debit&lt;/b> - Total Debit Amount current month  &lt;b>previous_month_debit&lt;/b> - Total Debit Amount previous month  &lt;b>current_month_balance&lt;/b> - Average Balance of current month  &lt;b>previous_month_balance&lt;/b> - Average Balance of previous month  &lt;b>churn&lt;/b> - Average balance of customer falls below minimum balance in the next quarter (1/0)
+Data Dictionary  There are multiple variables in the dataset which can be cleanly divided in 3 categories:  
+
+### Demographic information about customers  
+Customer_id         - Customer id  
+vintage             - Vintage of the customer with the bank in number of days\
+Age                 - Age of customer
+Gender              - Gender of customer
+Dependents          - Number of dependents
+Occupation                            - Occupation of the customer
+City                                - City of customer (anonymised
+### Customer Bank Relationship 
+Customer_nw_category                -Net worth of customer (3:Low 2:Medium 1:High)  
+Branch_code                         - Branch Code for customer account  
+Days_since_last_transaction         - No of Days Since Last Credit in Last 1 year
+### Transactional Information  
+Current_balance                   -Balance as of today
+Previous_month_end_balance        - End of Month Balance of previous month
+Average_monthly_balance_prev      - Average monthly balances (AMB) in Previous Quarter
+Average_monthly_balance_prevQ2    - Average monthly balances (AMB) in previous to previous quarter 
+Current_month_credit              - Total Credit Amount current month  
+Previous_month_credit             - Total Credit Amount previous month  &lt;b>current_month_debit&lt;/b> - Total Debit Amount current month  
+Previous_month_debit              -Total Debit Amount previous month  
+Current_month_balance             - Average Balance of current month 
+Previous_month_balance            -Average Balance of previous month 
+Churn&lt;/b>                      - Average balance of customer falls below minimum balance in the next quarter (1/0)
