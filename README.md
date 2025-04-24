@@ -24,3 +24,13 @@ Previous_month_debit              -Total Debit Amount previous month
 Current_month_balance             - Average Balance of current month 
 Previous_month_balance            -Average Balance of previous month 
 Churn&lt;/b>                      - Average balance of customer falls below minimum balance in the next quarter (1/0)
+
+### Outcome 
+Here, we can see that the model based on RFE is giving the best result for each fold and students are encouraged to try more feature selection techniques and fine tune to get the best results.
+
+
+
+<img width="541" alt="Screenshot 2025-04-24 at 09 58 03" src="https://github.com/user-attachments/assets/0a53e32b-eba2-4311-ba0f-6fd0a08b1d27" />
+
+
+
