@@ -1,5 +1,60 @@
-# Customer_Churn-prediction
-Data Dictionary  There are multiple variables in the dataset which can be cleanly divided in 3 categories:  
+# Problem 
+## 🧠 Customer Churn Prediction for Retail Banking
+
+The goal of this project is to **predict customer churn** for a retail bank using a combination of **demographic**, **relationship**, and **transactional** data.
+
+Churn is defined as customers whose **average balance in the next quarter falls below the minimum threshold**, indicating a potential disengagement or exit from the bank.
+
+---
+
+### 🎯 Objectives
+
+The bank seeks to proactively identify **at-risk customers** by analyzing patterns such as:
+
+- 📉 Declining account activity or balance trends  
+- 🔄 Irregular transaction behavior  
+- 👥 Demographic segments more prone to churn (e.g., age, occupation, dependents)  
+- 💸 Changes in credit and debit volume  
+
+---
+
+### 🎯 Benefits of Prediction
+
+By accurately predicting churn, the bank can:
+
+- 🎯 Launch targeted **retention strategies** (e.g., promotions or relationship management)
+- 🤝 Personalize **customer engagement**
+- 💰 Reduce **revenue loss** from dormant or closing accounts
+
+---
+
+### 🧾 Features Used
+
+The model leverages a rich set of features from multiple dimensions:
+
+#### 👤 Customer Demographics
+- Age  
+- Gender  
+- City  
+- Occupation  
+- Number of Dependents  
+- Vintage (relationship length with bank)  
+
+#### 🏦 Bank Relationship Metrics
+- Net worth category  
+- Branch code  
+- Days since last transaction  
+
+#### 💳 Transactional Trends
+- Current and previous balances  
+- Monthly average balances (current and past quarters)  
+- Credit and debit amounts (current and previous months)  
+- Balance volatility and transaction frequency  
+
+
+
+# Customer_Churn-prediction Data Dictionary  
+There are multiple variables in the dataset which can be cleanly divided in 3 categories:  
 
 ### Demographic information about customers  
 Customer_id         - Customer id  
